@@ -22,6 +22,6 @@ else {
 # Cloud variables
 $RM = Get-AzureRmResourceGroup 
 $loc = Get-AzureRmLocation | where {$_.Location -imatch "westeurope"}
-$StorageAccount = "storageaccountspocgianni"
+$StorageAccount = "YOURSTORAGEACCOUNT"
 
 
